@@ -1,0 +1,23 @@
+section {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.clients__img {
+  max-width: 120px
+}
+
+.clients__desc {
+  /* min-width: 200px; */
+}
+
+.rounded-5 {
+   border-radius:  1rem !important;
+}
+
+.translate-card-custom--y {
+  transform: translateY(-30px);
+}
+.translate-card-custom-y {
+  transform: translateY(30px);
+}
