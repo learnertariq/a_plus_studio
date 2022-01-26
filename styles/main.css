@@ -4,7 +4,7 @@ section {
 }
 
 .clients__img {
-  max-width: 120px
+  max-width: 120px;
 }
 
 .clients__desc {
@@ -12,12 +12,29 @@ section {
 }
 
 .rounded-5 {
-   border-radius:  1rem !important;
+  border-radius: 1rem !important;
 }
 
 .translate-card-custom--y {
   transform: translateY(-30px);
 }
+
 .translate-card-custom-y {
   transform: translateY(30px);
+}
+
+.testimonial {
+  background-image: url("../images/Ellipse\ 94.png");
+  background-repeat: no-repeat;
+  background-position: 50px 90%;
+}
+
+.contact__inner-container {
+  background-color: #f4f9ff;
+  border-radius: 4rem;
+  
+}
+
+.contact__input-container input {
+  outline: 0;
 }
