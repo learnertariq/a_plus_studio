@@ -32,9 +32,19 @@ section {
 .contact__inner-container {
   background-color: #f4f9ff;
   border-radius: 4rem;
-  
 }
 
 .contact__input-container input {
   outline: 0;
 }
+
+.input__wrapper .btn {
+  max-width: 170px;
+  flex: 0 1;
+}
+.input__wrapper input {
+  width: 90%;
+  flex: 1 1;
+}
+
+

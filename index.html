@@ -16,11 +16,11 @@
     <!-- Local CSS -->
     <link rel="stylesheet" href="styles/main.css" />
   </head>
-  <body>
+  <body class="">
     <!-----------------------
          Header Starts
    ----------------------->
-    <header>
+    <header class="overflow-hidden">
       <!-----------------------
          Nav Starts
    ----------------------->
@@ -325,12 +325,24 @@
             </div>
             <div class="col">
               <div class="p-4 contact__input-container">
-                <div class="input__wrapper border shadow-lg p-4 rounded-pill">
+                <div
+                  class="
+                    input__wrapper
+                    border
+                    shadow-lg
+                    p-2
+                    rounded-pill
+                    d-flex
+                  "
+                >
                   <input
                     type="email"
-                    class="fs-5 border-0 bg-transparent"
+                    class="fs-5 border-0 bg-transparent ms-2"
                     placeholder="Enter Your Email Address"
                   />
+                  <button class="btn btn-info btn-lg py-3 px-4 rounded-pill">
+                    Contact
+                  </button>
                 </div>
               </div>
             </div>
@@ -348,10 +360,69 @@
     <!-----------------------
          Footer Starts
    ----------------------->
-    <footer></footer>
+    <footer class="container">
+      <div class="row justify-content-between">
+        <div class="col col-4">
+          <h3 class="h4 fw-bold fs-5">A+ Studio</h3>
+          <p>
+            Leading digital agency with solid design and development expertise.
+            We build readymade websites, mobile applications, and elaborate
+            online business services.
+          </p>
+
+          <div class="footer__fa-links d-flex gap-2 mt-4">
+            <i class="fab text-primary fs-3 fa-facebook"></i>
+            <i class="fab text-primary fs-3 fa-twitter"></i>
+            <i class="fab text-primary fs-3 fa-linkedin"></i>
+          </div>
+        </div>
+        <div class="col col-2">
+          <h3 class="h4 fw-bold fs-5">What We Do</h3>
+          <ul class="list-unstyled">
+            <li>Web Design</li>
+            <li>App Design</li>
+            <li>Social Media Manage</li>
+            <li>Market Analysis Project</li>
+          </ul>
+        </div>
+        <div class="col col-2">
+          <h3 class="h4 fw-bold fs-5">What We Do</h3>
+          <ul class="list-unstyled">
+            <li>About Us</li>
+            <li>Career</li>
+            <li>Become Investor</li>
+          </ul>
+        </div>
+        <div class="col col-2">
+          <h3 class="h4 fw-bold fs-5">What We Do</h3>
+          <ul class="list-unstyled">
+            <li>FAQ</li>
+            <li>Policy</li>
+            <li>Business</li>
+          </ul>
+        </div>
+        <div class="col col-2">
+          <h3 class="h4 fw-bold fs-5">Contact</h3>
+          <ul class="list-unstyled">
+            <li>WhatsApp</li>
+            <li>Support 24</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__text text-center small mt-4 mb-2">
+        Copyright © 2022 Avi Yansah
+      </div>
+    </footer>
     <!-----------------------
         Footer ends
   ----------------------->
+
+    <!-- FontAwesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/1f2f7857fb.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap JS -->
     <script
