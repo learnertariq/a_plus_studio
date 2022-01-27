@@ -15,13 +15,7 @@ section {
   border-radius: 1rem !important;
 }
 
-.translate-card-custom--y {
-  transform: translateY(-30px);
-}
 
-.translate-card-custom-y {
-  transform: translateY(30px);
-}
 
 .testimonial {
   background-image: url("../images/Ellipse\ 94.png");
@@ -37,6 +31,9 @@ section {
 .contact__input-container input {
   outline: 0;
 }
+.input__wrapper {
+  max-width: 400px;
+}
 
 .input__wrapper .btn {
   max-width: 170px;
@@ -48,3 +45,22 @@ section {
 }
 
 
+@media only screen and (min-width: 576px) {
+  .translate-card-custom-sm--y {
+    transform: translateY(-30px);
+  }
+  
+  .translate-card-customs-sm-y {
+    transform: translateY(30px);
+  }
+
+  .hero__img {
+    max-width: 800px !important ;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .input__wrapper {
+    width: 400px;
+  }
+}
